@@ -16,3 +16,6 @@ A CRUD API built with MongoDB and Express.
 # Test
 
 `npm test`
+
+# curl
+curl -H "Content-Type: application/json" -d '{"title":"aaa555","username":"bbb333", "body":"fff000"}' http://localhost/api/documents/
